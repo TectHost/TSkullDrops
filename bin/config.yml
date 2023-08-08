@@ -1,0 +1,8 @@
+messages:
+  skullDisplayName: "&eHead of {player}"
+  skullLore: "&7Killed by {killer}"
+  noPermission: "&cYou don't have permission to use this command."
+  reloadSuccess: "&aTSkullDrops configuration reloaded."
+skullInteractCommands:
+  - "say {player} right-clicked on the head of {target}"
+  - "give {player} diamond 1"

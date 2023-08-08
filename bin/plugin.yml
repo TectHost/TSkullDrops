@@ -1,0 +1,7 @@
+main: minealex.tskulldrops.TSkullDrops
+version: 1.0
+name: TSkullDropsLite
+
+commands:
+  tsd:
+    description: Help command
