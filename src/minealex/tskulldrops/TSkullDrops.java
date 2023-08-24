@@ -29,7 +29,6 @@ public final class TSkullDrops extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Tu código de apagado si es necesario
     }
 
     public static TSkullDrops getInstance() {
@@ -43,5 +42,10 @@ public final class TSkullDrops extends JavaPlugin {
             getConfig().options().copyDefaults(true);
             saveConfig();
         }
+    }
+    
+    public void loadConfig() {
+        getConfig().options().copyDefaults(true);
+        saveConfig();
     }
 }
